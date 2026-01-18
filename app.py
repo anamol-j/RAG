@@ -5,7 +5,7 @@ from profile_utils import normalize_preferences
 from pinecone import Pinecone
 
 pc = Pinecone(api_key="")
-pinecone_index = pc.Index("styling-rules")
+pinecone_index = pc.Index("styling-rules2")
 
 st.set_page_config(page_title="Style Preferences", layout="centered")
 st.title("Personal Style Questionnaire")

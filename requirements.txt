@@ -1,0 +1,16 @@
+streamlit
+
+# LangChain & LLMs
+langchain
+langchain-core
+langchain-groq
+
+# Vector DB
+pinecone
+
+# Embeddings
+sentence-transformers
+torch
+
+# Utilities
+tqdm

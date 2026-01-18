@@ -7,7 +7,7 @@ from sentence_transformers import SentenceTransformer
 # ------------------------------------
 # CONFIG
 # ------------------------------------
-PINECONE_API_KEY = "pcsk_3vV9Ya_6KuS5vozsFVi48MgZZCaH3JSPKh7szKAyctyQKkxKKkAsedygXf7mJ7Rx8FxYLy"
+PINECONE_API_KEY = ""
 INDEX_NAME = "styling-rules2"
 DATA_FILE = "outfits_flat_with_gender.json"   # your file
 

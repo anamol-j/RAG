@@ -20,6 +20,24 @@ QUESTION_BANK = [
         "options": ["18-24", "25-34", "35-44", "45-54", "55+"]
     },
     {
+        "id": "body_shape",
+        "label": "Your body shape",
+        "type": "radio",
+        "options": ["Apple", "Pear", "Hourglass", "Triangle", "Rectangle"]
+    },
+    {
+        "id": "body_size",
+        "label": "Your body size",
+        "type": "radio",
+        "options": ["Petite", "Skinny", "Average", "Athletic", "Plus Size"]
+    },
+    {
+        "id": "skin_tone",
+        "label": "Your skin tone",
+        "type": "radio",
+        "options": ["Fair", "Light", "Medium", "Olive", "Dark", "Deep"]
+    },
+    {
         "id": "style_goal",
         "label": "What's your main style goal?",
         "type": "multiselect",
@@ -37,6 +55,12 @@ QUESTION_BANK = [
         "options": ["Work", "Workout", "Party", "Everyday", "Weekend", "Beach Wear"]
     },
     {
+        "id": "pick_style",
+        "label": "Pick your preferred style",
+        "type": "multiselect",
+        "options": ["Streetwear", "Formal", "Vintage", "Minimalist", "Sporty"]
+    },
+    {
         "id": "style_preference",
         "label": "Style Preference",
         "type": "multiselect",
@@ -46,7 +70,7 @@ QUESTION_BANK = [
         "id": "preferred_fit",
         "label": "Preferred Fit",
         "type": "radio",
-        "options": ["Slim Fit", "Regular Fit", "Relaxed Fit"]
+        "options": ["Slim Fit", "Regular Fit", "Oversized"]
     },
     {
         "id": "outfit_boldness",
