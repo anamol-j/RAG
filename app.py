@@ -1,10 +1,14 @@
+import os
 import streamlit as st
 from question_bank import get_random_questions
 from style_summary import generate_styling_suggestions
 from profile_utils import normalize_preferences
 from pinecone import Pinecone
+from dotenv import load_dotenv
 
-pc = Pinecone(api_key="")
+load_dotenv()
+
+pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
 pinecone_index = pc.Index("styling-rules2")
 
 st.set_page_config(page_title="Style Preferences", layout="centered")

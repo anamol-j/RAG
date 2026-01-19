@@ -1,8 +1,11 @@
+import os
 from sentence_transformers import SentenceTransformer
 from pinecone import Pinecone
 import json
+from dotenv import load_dotenv
+load_dotenv()
 
-pc = Pinecone(api_key="")
+pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY",""))
 pinecone_index = pc.Index("styling-rules2")
 embedding_model = SentenceTransformer("BAAI/bge-large-en-v1.5")
 

@@ -14,3 +14,5 @@ torch
 
 # Utilities
 tqdm
+
+python-dotenv

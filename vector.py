@@ -1,13 +1,15 @@
 import json
+import os
 import torch
 from tqdm import tqdm
 from pinecone import Pinecone, ServerlessSpec
 from sentence_transformers import SentenceTransformer
-
+from dotenv import load_dotenv
+load_dotenv()
 # ------------------------------------
 # CONFIG
 # ------------------------------------
-PINECONE_API_KEY = ""
+PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 INDEX_NAME = "styling-rules2"
 DATA_FILE = "outfits_flat_with_gender.json"   # your file
 

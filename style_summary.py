@@ -3,6 +3,8 @@ from langchain_core.prompts import PromptTemplate
 import os
 import json
 from vector_search import search_styling_rules
+from dotenv import load_dotenv
+load_dotenv()
 
 llm = ChatGroq(
     model="llama-3.1-8b-instant",
